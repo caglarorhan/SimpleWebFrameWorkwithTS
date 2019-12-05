@@ -49,9 +49,7 @@ export abstract class View<T extends Model<K>, K>{
         }
     }
 
-    onRender():void{
-
-    }
+    onRender():void{}
 
     render(): void{
         this.parent.innerHTML='';

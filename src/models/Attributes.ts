@@ -7,6 +7,7 @@ export class Attributes<T>{
     }
 
     set(update:T):void{
+        // @ts-ignore
         Object.assign(this.data, update);
     }
 
